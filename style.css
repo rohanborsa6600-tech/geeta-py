@@ -1,0 +1,58 @@
+
+body {
+  font-family: 'Noto Serif Devanagari', serif;
+  background: #f9f3e6 url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+  color: #2c1810;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+  transition: background 0.3s, color 0.3s;
+}
+header {
+  background: #a94442;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+header .back-btn {
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  left: 1em;
+  top: 1.2em;
+}
+main {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 1em;
+  background: rgba(255,255,255,0.85);
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  color: #a94442;
+  font-weight: bold;
+}
+body.dark {
+  background: #1a1a1a;
+  color: #f4f4f4;
+}
+body.dark header {
+  background: #333;
+}
+button {
+  margin: 0 5px;
+  padding: 0.3em 0.6em;
+  border: none;
+  border-radius: 4px;
+  background: #d9534f;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background: #c9302c;
+}
